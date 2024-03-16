@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`displays a success message 1`] = `[Function]`;
+
+exports[`displays an error message 1`] = `[Function]`;
+
+exports[`does not render an error or a success message if message props is empty 1`] = `<DocumentFragment />`;
