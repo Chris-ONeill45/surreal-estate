@@ -1,0 +1,49 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  height: calc(100% - 80px);
+  background-color: white;
+  position: fixed;
+  top: 127px;
+  left: 0;
+  overflow-y: auto;
+}
+
+.sidebar-form {
+}
+
+.sidebar-form_button {
+  height: auto;
+  width: auto;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  border: 1px solid #9d249d;
+  border-radius: 5px;
+  background-color: white;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: #9d249d;
+    color: #fff;
+  }
+}
+
+.sidebar-title {
+  display: flex;
+  justify-content: left;
+}
+
+.sidebar-links {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  color: black;
+  text-decoration: none;
+}
+
+.sidebar-links > a {
+  text-decoration: none;
+  color: black;
+}

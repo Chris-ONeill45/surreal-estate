@@ -1,7 +1,38 @@
 .property-card {
   display: flex;
   flex-direction: column;
-  width: 100%;
+  justify-content: space-between;
+  width: 90%;
   padding: 10px;
-  border: 1px solid;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f0eaea;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.property-card__info {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: left;
+  margin-bottom: 10px;
+}
+
+.property-card__email {
+  background-color: #9d249d;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 4px;
+  display: inline-block;
+  margin-top: 8px;
+  cursor: pointer;
+}
+
+.property-card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  grid-gap: 20px;
+  justify-content: space-evenly;
+  padding: 30px;
+  overflow-x: hidden;
 }

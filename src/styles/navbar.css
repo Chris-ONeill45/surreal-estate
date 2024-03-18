@@ -5,6 +5,9 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  height: 80px;
+  width: 100%;
+  position: fixed;
 }
 
 .logo {
@@ -13,7 +16,7 @@
 }
 
 .navbar-links {
-  margin: 0;
+  margin-right: 50px;
   list-style: none;
   display: flex;
 }
@@ -24,13 +27,14 @@
   text-decoration: none;
   color: #333;
   font-weight: bold;
-  border: 1px solid #3498db;
+  border: 1px solid #9d249d;
   border-radius: 5px;
+  background-color: white;
   transition: background-color 0.3s ease;
   display: inline-block;
 
   &:hover {
-    background-color: #3498db;
+    background-color: #9d249d;
     color: #fff;
   }
 }

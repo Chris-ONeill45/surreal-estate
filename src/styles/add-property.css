@@ -1,7 +1,6 @@
 .add-property {
   margin: 0px auto;
   padding: 5px;
-  position: relative;
   font-size: 18px;
 }
 
@@ -26,4 +25,16 @@
   width: auto;
   font-weight: bold;
   margin-top: 16px;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  border: 1px solid #9d249d;
+  border-radius: 5px;
+  background-color: white;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: #9d249d;
+    color: #fff;
+  }
 }
